@@ -15,6 +15,7 @@
 		22B4CEDB1D15901E007E41F1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 22B4CED91D15901E007E41F1 /* LaunchScreen.storyboard */; };
 		22B4CEE61D15901F007E41F1 /* UIKitExampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 22B4CEE51D15901F007E41F1 /* UIKitExampleTests.m */; };
 		22B4CEF11D15901F007E41F1 /* UIKitExampleUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 22B4CEF01D15901F007E41F1 /* UIKitExampleUITests.m */; };
+		22B4CF031D15A453007E41F1 /* BtnViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 22B4CF021D15A453007E41F1 /* BtnViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		22B4CEEC1D15901F007E41F1 /* UIKitExampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UIKitExampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		22B4CEF01D15901F007E41F1 /* UIKitExampleUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UIKitExampleUITests.m; sourceTree = "<group>"; };
 		22B4CEF21D15901F007E41F1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		22B4CF011D15A453007E41F1 /* BtnViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BtnViewController.h; sourceTree = "<group>"; };
+		22B4CF021D15A453007E41F1 /* BtnViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BtnViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +113,8 @@
 				22B4CED91D15901E007E41F1 /* LaunchScreen.storyboard */,
 				22B4CEDC1D15901E007E41F1 /* Info.plist */,
 				22B4CECB1D15901E007E41F1 /* Supporting Files */,
+				22B4CF011D15A453007E41F1 /* BtnViewController.h */,
+				22B4CF021D15A453007E41F1 /* BtnViewController.m */,
 			);
 			path = UIKitExample;
 			sourceTree = "<group>";
@@ -271,6 +276,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				22B4CED31D15901E007E41F1 /* ViewController.m in Sources */,
+				22B4CF031D15A453007E41F1 /* BtnViewController.m in Sources */,
 				22B4CED01D15901E007E41F1 /* AppDelegate.m in Sources */,
 				22B4CECD1D15901E007E41F1 /* main.m in Sources */,
 			);
