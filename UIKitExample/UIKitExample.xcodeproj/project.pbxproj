@@ -84,10 +84,10 @@
 		22B4CEBF1D15901E007E41F1 = {
 			isa = PBXGroup;
 			children = (
+				22B4CEC91D15901E007E41F1 /* Products */,
 				22B4CECA1D15901E007E41F1 /* UIKitExample */,
 				22B4CEE41D15901F007E41F1 /* UIKitExampleTests */,
 				22B4CEEF1D15901F007E41F1 /* UIKitExampleUITests */,
-				22B4CEC91D15901E007E41F1 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
@@ -107,8 +107,8 @@
 				22B4CF0A1D15BBCD007E41F1 /* Base */,
 				22B4CF091D15BB98007E41F1 /* Core */,
 				22B4CF061D15B7EB007E41F1 /* Modules */,
-				22B4CED71D15901E007E41F1 /* Assets.xcassets */,
 				22B4CECB1D15901E007E41F1 /* Supporting Files */,
+				22B4CED71D15901E007E41F1 /* Assets.xcassets */,
 			);
 			path = UIKitExample;
 			sourceTree = "<group>";
@@ -118,14 +118,14 @@
 			children = (
 				22B4CECC1D15901E007E41F1 /* main.m */,
 			);
-			name = "Supporting Files";
+			path = "Supporting Files";
 			sourceTree = "<group>";
 		};
 		22B4CEE41D15901F007E41F1 /* UIKitExampleTests */ = {
 			isa = PBXGroup;
 			children = (
-				22B4CEE51D15901F007E41F1 /* UIKitExampleTests.m */,
 				22B4CEE71D15901F007E41F1 /* Info.plist */,
+				22B4CEE51D15901F007E41F1 /* UIKitExampleTests.m */,
 			);
 			path = UIKitExampleTests;
 			sourceTree = "<group>";
@@ -133,8 +133,8 @@
 		22B4CEEF1D15901F007E41F1 /* UIKitExampleUITests */ = {
 			isa = PBXGroup;
 			children = (
-				22B4CEF01D15901F007E41F1 /* UIKitExampleUITests.m */,
 				22B4CEF21D15901F007E41F1 /* Info.plist */,
+				22B4CEF01D15901F007E41F1 /* UIKitExampleUITests.m */,
 			);
 			path = UIKitExampleUITests;
 			sourceTree = "<group>";
@@ -145,7 +145,7 @@
 				22B4CF081D15BA9B007E41F1 /* UIAlert */,
 				22B4CF071D15BA76007E41F1 /* UIButton */,
 			);
-			name = Modules;
+			path = Modules;
 			sourceTree = "<group>";
 		};
 		22B4CF071D15BA76007E41F1 /* UIButton */ = {
@@ -154,14 +154,14 @@
 				22B4CF011D15A453007E41F1 /* BtnViewController.h */,
 				22B4CF021D15A453007E41F1 /* BtnViewController.m */,
 			);
-			name = UIButton;
+			path = UIButton;
 			sourceTree = "<group>";
 		};
 		22B4CF081D15BA9B007E41F1 /* UIAlert */ = {
 			isa = PBXGroup;
 			children = (
 			);
-			name = UIAlert;
+			path = UIAlert;
 			sourceTree = "<group>";
 		};
 		22B4CF091D15BB98007E41F1 /* Core */ = {
@@ -169,20 +169,20 @@
 			children = (
 				22B4CECE1D15901E007E41F1 /* AppDelegate.h */,
 				22B4CECF1D15901E007E41F1 /* AppDelegate.m */,
+				22B4CED41D15901E007E41F1 /* Main.storyboard */,
 				22B4CED11D15901E007E41F1 /* ViewController.h */,
 				22B4CED21D15901E007E41F1 /* ViewController.m */,
-				22B4CED41D15901E007E41F1 /* Main.storyboard */,
 			);
-			name = Core;
+			path = Core;
 			sourceTree = "<group>";
 		};
 		22B4CF0A1D15BBCD007E41F1 /* Base */ = {
 			isa = PBXGroup;
 			children = (
-				22B4CED91D15901E007E41F1 /* LaunchScreen.storyboard */,
 				22B4CEDC1D15901E007E41F1 /* Info.plist */,
+				22B4CED91D15901E007E41F1 /* LaunchScreen.storyboard */,
 			);
-			name = Base;
+			path = Base;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -360,6 +360,7 @@
 				22B4CED51D15901E007E41F1 /* Base */,
 			);
 			name = Main.storyboard;
+			path = .;
 			sourceTree = "<group>";
 		};
 		22B4CED91D15901E007E41F1 /* LaunchScreen.storyboard */ = {
@@ -368,6 +369,7 @@
 				22B4CEDA1D15901E007E41F1 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			path = .;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -457,7 +459,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = UIKitExample/Info.plist;
+				INFOPLIST_FILE = UIKitExample/Base/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.feizheng.UIKitExample;
@@ -469,7 +471,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = UIKitExample/Info.plist;
+				INFOPLIST_FILE = UIKitExample/Base/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.feizheng.UIKitExample;
@@ -544,6 +546,7 @@
 				22B4CEF71D15901F007E41F1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		22B4CEF81D15901F007E41F1 /* Build configuration list for PBXNativeTarget "UIKitExampleTests" */ = {
 			isa = XCConfigurationList;
@@ -552,6 +555,7 @@
 				22B4CEFA1D15901F007E41F1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		22B4CEFB1D15901F007E41F1 /* Build configuration list for PBXNativeTarget "UIKitExampleUITests" */ = {
 			isa = XCConfigurationList;
@@ -560,6 +564,7 @@
 				22B4CEFD1D15901F007E41F1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
