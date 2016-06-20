@@ -15,7 +15,9 @@
 		22B4CEDB1D15901E007E41F1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 22B4CED91D15901E007E41F1 /* LaunchScreen.storyboard */; };
 		22B4CEE61D15901F007E41F1 /* UIKitExampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 22B4CEE51D15901F007E41F1 /* UIKitExampleTests.m */; };
 		22B4CEF11D15901F007E41F1 /* UIKitExampleUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 22B4CEF01D15901F007E41F1 /* UIKitExampleUITests.m */; };
-		22B4CF031D15A453007E41F1 /* BtnViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 22B4CF021D15A453007E41F1 /* BtnViewController.m */; };
+		22B4CF031D15A453007E41F1 /* BtnView.m in Sources */ = {isa = PBXBuildFile; fileRef = 22B4CF021D15A453007E41F1 /* BtnView.m */; };
+		22B4CF111D169845007E41F1 /* AlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = 22B4CF101D169845007E41F1 /* AlertView.m */; };
+		FCA212E9569A294BB51ABFA4 /* TextFieldView.m in Sources */ = {isa = PBXBuildFile; fileRef = FCA21F4D28279F461E5F5F20 /* TextFieldView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,8 +54,12 @@
 		22B4CEEC1D15901F007E41F1 /* UIKitExampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UIKitExampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		22B4CEF01D15901F007E41F1 /* UIKitExampleUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UIKitExampleUITests.m; sourceTree = "<group>"; };
 		22B4CEF21D15901F007E41F1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		22B4CF011D15A453007E41F1 /* BtnViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BtnViewController.h; sourceTree = "<group>"; };
-		22B4CF021D15A453007E41F1 /* BtnViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BtnViewController.m; sourceTree = "<group>"; };
+		22B4CF011D15A453007E41F1 /* BtnView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BtnView.h; sourceTree = "<group>"; };
+		22B4CF021D15A453007E41F1 /* BtnView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BtnView.m; sourceTree = "<group>"; };
+		22B4CF0F1D169845007E41F1 /* AlertView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AlertView.h; sourceTree = "<group>"; };
+		22B4CF101D169845007E41F1 /* AlertView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AlertView.m; sourceTree = "<group>"; };
+		FCA21B5AB63CD3F76657EE85 /* TextFieldView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TextFieldView.h; sourceTree = "<group>"; };
+		FCA21F4D28279F461E5F5F20 /* TextFieldView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TextFieldView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -144,6 +150,7 @@
 			children = (
 				22B4CF081D15BA9B007E41F1 /* UIAlert */,
 				22B4CF071D15BA76007E41F1 /* UIButton */,
+				FCA21F739A2711B46347035B /* UITextField */,
 			);
 			path = Modules;
 			sourceTree = "<group>";
@@ -151,8 +158,8 @@
 		22B4CF071D15BA76007E41F1 /* UIButton */ = {
 			isa = PBXGroup;
 			children = (
-				22B4CF011D15A453007E41F1 /* BtnViewController.h */,
-				22B4CF021D15A453007E41F1 /* BtnViewController.m */,
+				22B4CF011D15A453007E41F1 /* BtnView.h */,
+				22B4CF021D15A453007E41F1 /* BtnView.m */,
 			);
 			path = UIButton;
 			sourceTree = "<group>";
@@ -160,6 +167,8 @@
 		22B4CF081D15BA9B007E41F1 /* UIAlert */ = {
 			isa = PBXGroup;
 			children = (
+				22B4CF0F1D169845007E41F1 /* AlertView.h */,
+				22B4CF101D169845007E41F1 /* AlertView.m */,
 			);
 			path = UIAlert;
 			sourceTree = "<group>";
@@ -183,6 +192,15 @@
 				22B4CED91D15901E007E41F1 /* LaunchScreen.storyboard */,
 			);
 			path = Base;
+			sourceTree = "<group>";
+		};
+		FCA21F739A2711B46347035B /* UITextField */ = {
+			isa = PBXGroup;
+			children = (
+				FCA21F4D28279F461E5F5F20 /* TextFieldView.m */,
+				FCA21B5AB63CD3F76657EE85 /* TextFieldView.h */,
+			);
+			path = UITextField;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -315,10 +333,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				22B4CF111D169845007E41F1 /* AlertView.m in Sources */,
 				22B4CED31D15901E007E41F1 /* ViewController.m in Sources */,
-				22B4CF031D15A453007E41F1 /* BtnViewController.m in Sources */,
+				22B4CF031D15A453007E41F1 /* BtnView.m in Sources */,
 				22B4CED01D15901E007E41F1 /* AppDelegate.m in Sources */,
 				22B4CECD1D15901E007E41F1 /* main.m in Sources */,
+				FCA212E9569A294BB51ABFA4 /* TextFieldView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

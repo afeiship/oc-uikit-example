@@ -1,14 +1,14 @@
 //
-//  BtnViewController.m
+//  BtnView.m
 //  UIKitExample
 //
 //  Created by 郑飞 on 6/18/16.
 //  Copyright © 2016 feizheng. All rights reserved.
 //
 
-#import "BtnViewController.h"
+#import "BtnView.h"
 
-@implementation BtnViewController
+@implementation BtnView
 + (UIButton *) round{
     UIButton *btn =[[UIButton alloc ] init];
     btn.backgroundColor=[UIColor grayColor];

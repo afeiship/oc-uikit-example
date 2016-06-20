@@ -1,5 +1,5 @@
 //
-//  BtnViewController.h
+//  BtnView.h
 //  UIKitExample
 //
 //  Created by 郑飞 on 6/18/16.
@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface BtnViewController : NSObject
+@interface BtnView : NSObject
 + (UIButton *) round;
 @end
