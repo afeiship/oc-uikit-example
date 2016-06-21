@@ -11,6 +11,10 @@
       <sourceFolder url="file://$MODULE_DIR$/UIKitExample/Modules/UIButton/BtnView.m" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/UIKitExample/Modules/UItextField/TextFieldView.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/UIKitExample/Modules/UItextField/TextFieldView.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/UIKitExample/Modules/UIImageView/ImageView.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/UIKitExample/Modules/UIImageView/ImageView.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/UIKitExample/Modules/UIScrollView/ScrollView.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/UIKitExample/Modules/UIScrollView/ScrollView.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/UIKitExample/Modules/UIAlert/AlertView.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/UIKitExample/Modules/UIAlert/AlertView.m" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/UIKitExample/Base/Base.lproj/LaunchScreen.storyboard" isTestSource="false" />
