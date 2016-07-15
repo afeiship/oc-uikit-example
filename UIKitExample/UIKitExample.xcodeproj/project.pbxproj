@@ -7,15 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		22A913CE1D1D92240037500E /* CustomizeView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 22A913CD1D1D92240037500E /* CustomizeView.xib */; };
 		22AA80F51D19306200F4577F /* CYXTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 22AA80F41D19306200F4577F /* CYXTabBarController.m */; };
 		22AA80FF1D1931E100F4577F /* CYXTwoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 22AA80FE1D1931E100F4577F /* CYXTwoViewController.m */; };
 		22AA81021D1931F500F4577F /* CYXThreeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 22AA81011D1931F500F4577F /* CYXThreeViewController.m */; };
 		22AA81051D19320500F4577F /* CYXFourViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 22AA81041D19320500F4577F /* CYXFourViewController.m */; };
 		22AA81081D19325C00F4577F /* CYXOneViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 22AA81071D19325C00F4577F /* CYXOneViewController.m */; };
-		22AA810C1D19698B00F4577F /* tab_home_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 22AA810B1D19698B00F4577F /* tab_home_icon.png */; };
-		22AA81101D196A9C00F4577F /* blog.png in Resources */ = {isa = PBXBuildFile; fileRef = 22AA810D1D196A9C00F4577F /* blog.png */; };
-		22AA81111D196A9C00F4577F /* js.png in Resources */ = {isa = PBXBuildFile; fileRef = 22AA810E1D196A9C00F4577F /* js.png */; };
-		22AA81121D196A9C00F4577F /* user.png in Resources */ = {isa = PBXBuildFile; fileRef = 22AA810F1D196A9C00F4577F /* user.png */; };
+		22AA81771D1A66FF00F4577F /* MyTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 22AA81761D1A66FF00F4577F /* MyTabBarController.m */; };
+		22B14FC21D1A686700FC45F8 /* js.png in Resources */ = {isa = PBXBuildFile; fileRef = 22B14FC01D1A686700FC45F8 /* js.png */; };
+		22B14FC31D1A686700FC45F8 /* js@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 22B14FC11D1A686700FC45F8 /* js@2x.png */; };
 		22B4CECD1D15901E007E41F1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 22B4CECC1D15901E007E41F1 /* main.m */; };
 		22B4CED01D15901E007E41F1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 22B4CECF1D15901E007E41F1 /* AppDelegate.m */; };
 		22B4CED31D15901E007E41F1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 22B4CED21D15901E007E41F1 /* ViewController.m */; };
@@ -49,6 +49,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		22A913CD1D1D92240037500E /* CustomizeView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CustomizeView.xib; sourceTree = "<group>"; };
 		22AA80F31D19306200F4577F /* CYXTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CYXTabBarController.h; sourceTree = "<group>"; };
 		22AA80F41D19306200F4577F /* CYXTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CYXTabBarController.m; sourceTree = "<group>"; };
 		22AA80FD1D1931E100F4577F /* CYXTwoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CYXTwoViewController.h; sourceTree = "<group>"; };
@@ -59,10 +60,10 @@
 		22AA81041D19320500F4577F /* CYXFourViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CYXFourViewController.m; sourceTree = "<group>"; };
 		22AA81061D19325C00F4577F /* CYXOneViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CYXOneViewController.h; sourceTree = "<group>"; };
 		22AA81071D19325C00F4577F /* CYXOneViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CYXOneViewController.m; sourceTree = "<group>"; };
-		22AA810B1D19698B00F4577F /* tab_home_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = tab_home_icon.png; path = UIKitExample/Assets/tab_home_icon.png; sourceTree = SOURCE_ROOT; };
-		22AA810D1D196A9C00F4577F /* blog.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = blog.png; path = UIKitExample/Assets/blog.png; sourceTree = SOURCE_ROOT; };
-		22AA810E1D196A9C00F4577F /* js.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = js.png; path = UIKitExample/Assets/js.png; sourceTree = SOURCE_ROOT; };
-		22AA810F1D196A9C00F4577F /* user.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = user.png; path = UIKitExample/Assets/user.png; sourceTree = SOURCE_ROOT; };
+		22AA81751D1A66FF00F4577F /* MyTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyTabBarController.h; sourceTree = "<group>"; };
+		22AA81761D1A66FF00F4577F /* MyTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyTabBarController.m; sourceTree = "<group>"; };
+		22B14FC01D1A686700FC45F8 /* js.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = js.png; path = ../../../../../../Downloads/js.png; sourceTree = "<group>"; };
+		22B14FC11D1A686700FC45F8 /* js@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "js@2x.png"; path = "../../../../../../Downloads/js@2x.png"; sourceTree = "<group>"; };
 		22B4CEC81D15901E007E41F1 /* UIKitExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UIKitExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		22B4CECC1D15901E007E41F1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		22B4CECE1D15901E007E41F1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -137,6 +138,14 @@
 			path = TabController;
 			sourceTree = "<group>";
 		};
+		22A913CC1D1D91E40037500E /* CustomizeView */ = {
+			isa = PBXGroup;
+			children = (
+				22A913CD1D1D92240037500E /* CustomizeView.xib */,
+			);
+			name = CustomizeView;
+			sourceTree = "<group>";
+		};
 		22AA80F61D19312500F4577F /* CYXOneViewController */ = {
 			isa = PBXGroup;
 			children = (
@@ -184,12 +193,19 @@
 		22AA810A1D19694D00F4577F /* Images */ = {
 			isa = PBXGroup;
 			children = (
-				22AA810D1D196A9C00F4577F /* blog.png */,
-				22AA810E1D196A9C00F4577F /* js.png */,
-				22AA810F1D196A9C00F4577F /* user.png */,
-				22AA810B1D19698B00F4577F /* tab_home_icon.png */,
+				22B14FC01D1A686700FC45F8 /* js.png */,
+				22B14FC11D1A686700FC45F8 /* js@2x.png */,
 			);
 			path = Images;
+			sourceTree = "<group>";
+		};
+		22AA81741D1A66DA00F4577F /* UITabBarController */ = {
+			isa = PBXGroup;
+			children = (
+				22AA81751D1A66FF00F4577F /* MyTabBarController.h */,
+				22AA81761D1A66FF00F4577F /* MyTabBarController.m */,
+			);
+			name = UITabBarController;
 			sourceTree = "<group>";
 		};
 		22B4CEBF1D15901E007E41F1 = {
@@ -255,6 +271,8 @@
 		22B4CF061D15B7EB007E41F1 /* Modules */ = {
 			isa = PBXGroup;
 			children = (
+				22A913CC1D1D91E40037500E /* CustomizeView */,
+				22AA81741D1A66DA00F4577F /* UITabBarController */,
 				22B4CF081D15BA9B007E41F1 /* UIAlert */,
 				22B4CF071D15BA76007E41F1 /* UIButton */,
 				FCA215F37E180B00E2BE6BA8 /* UIImageView */,
@@ -433,12 +451,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				22A913CE1D1D92240037500E /* CustomizeView.xib in Resources */,
 				22B4CEDB1D15901E007E41F1 /* LaunchScreen.storyboard in Resources */,
-				22AA81101D196A9C00F4577F /* blog.png in Resources */,
 				22B4CED81D15901E007E41F1 /* Assets.xcassets in Resources */,
-				22AA810C1D19698B00F4577F /* tab_home_icon.png in Resources */,
-				22AA81121D196A9C00F4577F /* user.png in Resources */,
-				22AA81111D196A9C00F4577F /* js.png in Resources */,
+				22B14FC21D1A686700FC45F8 /* js.png in Resources */,
+				22B14FC31D1A686700FC45F8 /* js@2x.png in Resources */,
 				22B4CED61D15901E007E41F1 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -469,6 +486,7 @@
 				22AA81021D1931F500F4577F /* CYXThreeViewController.m in Sources */,
 				22B4CED31D15901E007E41F1 /* ViewController.m in Sources */,
 				22B4CF031D15A453007E41F1 /* BtnView.m in Sources */,
+				22AA81771D1A66FF00F4577F /* MyTabBarController.m in Sources */,
 				22B4CED01D15901E007E41F1 /* AppDelegate.m in Sources */,
 				22B4CECD1D15901E007E41F1 /* main.m in Sources */,
 				22AA81051D19320500F4577F /* CYXFourViewController.m in Sources */,
